@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class greatest3 {
 	public static void greatest(int a,int b,int c) {
-		if (a>b & a>c)
+		if (a>b && a>c)
 			System.out.println(a + " A is the greatest number");
-		else if(b>a & b>c)
+		else if(b>a && b>c)
 			System.out.println(b + " B is the greatest number");
 		else
 			System.out.println(c + " C is the greratest");
