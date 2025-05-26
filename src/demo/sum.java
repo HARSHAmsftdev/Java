@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class sum {
 
 	public static void main(String args[]) {
-		int a,b;
+		int a,b,d;
 		
 		Scanner sc= new Scanner(System.in);
 		System.out.println("Enter a:");
