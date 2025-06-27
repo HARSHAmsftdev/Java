@@ -8,10 +8,10 @@ public class evenodd {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the Number:");
 		num =sc.nextInt();
-		if(num % 2 == 0)
-			System.out.println("Even Number");
-		else
+		if(num % 2 != 0)
 			System.out.println("Odd Number");
+		else
+			System.out.println("Even Number");
 	}
 
 }
